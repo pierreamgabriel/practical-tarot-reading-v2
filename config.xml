@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        xmlns:android = "http://schemas.android.com/apk/res/android"
+        id        = "com.practicaltarot.android"
+        version   = "1.0">
+
+    <name>Practical Tarot Reading</name>
+
+    <description>
+        Practical Tarot Reading is an app that lets you to use Tarot directly from your device without a physical deck.
+    </description>
+
+    <author href="https://github.com/pierremacedo" email="pierremacedodev@gmail.com">
+        Pierre Macedo
+    </author>
+    
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="stay-in-webview" value="false" /> 
+    <preference name="AndroidLaunchMode" value="singleTask" />
+    
+    
+    <!-- Get rid of the black/gray screen shown before splash screen in every app built on Phonegap/Cordova -->
+    <preference name="SplashScreenDelay" value="5000" />
+    <config-file platform="android" parent="/manifest" mode="merge">
+    <application android:theme="@android:style/Theme.Translucent.NoTitleBar"></application>
+    </config-file>
+    
+    
+    
+    <!-- Define app icon for each platform. -->
+    <icon src="icon.png" />
+    <icon src="res/icon/android/drawable-ldpi-icon.png" platform="android" qualifier="ldpi" />
+    <icon src="res/icon/android/drawable-mdpi-icon.png" platform="android" qualifier="mdpi" />
+    <icon src="res/icon/android/drawable-hdpi-icon.png" platform="android" qualifier="hdpi" />
+    <icon src="res/icon/android/drawable-xhdpi-icon.png" platform="android" qualifier="xhdpi" />
+    <icon src="res/icon/android/drawable-xxhdpi-icon.png" platform="android" qualifier="xxhdpi" />
+    <icon src="res/icon/android/drawable-xxxhdpi-icon.png" platform="android" qualifier="xxxhdpi" />
+        
+    <!-- Define app splash screen for each platform. -->
+    <splash src="splash.png" />
+    <splash src="res/screen/android/drawable-port-ldpi-screen.png" platform="android" qualifier="ldpi" /> />
+    <splash src="res/screen/android/drawable-port-mdpi-screen.png" platform="android" qualifier="mdpi" /> />
+    <splash src="res/screen/android/drawable-port-hdpi-screen.png" platform="android" qualifier="hdpi" /> />
+    <splash src="res/screen/android/drawable-port-xhdpi-screen.png" platform="android" qualifier="xhdpi" /> />
+    <splash src="res/screen/android/drawable-port-xxhdpi-screen.png" platform="android" qualifier="xxhdpi" /> />
+    <splash src="res/screen/android/drawable-port-xxxhdpi-screen.png" platform="android" qualifier="xxxhdpi" /> />
+    <splash src="res/screen/android/drawable-land-ldpi-screen.png" platform="android" qualifier="land-ldpi" />
+    <splash src="res/screen/android/drawable-land-mdpi-screen.png" platform="android" qualifier="land-mdpi" />
+    <splash src="res/screen/android/drawable-land-hdpi-screen.png" platform="android" qualifier="land-hdpi" />
+    <splash src="res/screen/android/drawable-land-xhdpi-screen.png" platform="android" qualifier="land-xhdpi" />
+    <splash src="res/screen/android/drawable-land-xxhdpi-screen.png" platform="android" qualifier="land-xxhdpi" />
+    <splash src="res/screen/android/drawable-land-xxxhdpi-screen.png" platform="android" qualifier="land-xxxhdpi" />
+    
+    
+</widget>
