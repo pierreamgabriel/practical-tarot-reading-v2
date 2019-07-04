@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap="http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.practicaltarot.android"
+        id        = "com.practicaltarotv2.android"
         version   = "1.0">
 
     <name>Practical Tarot Reading V2</name>
