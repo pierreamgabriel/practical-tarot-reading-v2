@@ -4,8 +4,7 @@ This version of the Practical Tarot Reading app eliminates user interactions and
 
 *78 cards deck.  
 *Two spread modes available: 3 or 5 cards.  
-*Includes reversals.  
-*Includes instructions on how to make better questions in order to get better answers from the oracle. 
+*Includes reversals.   
 
 
 
