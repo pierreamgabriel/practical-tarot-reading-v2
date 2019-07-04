@@ -23,7 +23,7 @@ function thirdScreen(arg) {
 window.scrollTo(0, 0);
 number = 7;        
 
-document.getElementById("div-content").innerHTML='<div class="instruction-title">Instructions</div><div class="first-instructions"><p class="item1">Think about what you want to ask and formulate a clear question. You can say it aloud or just in your mind.</p><p class="item2">While focusing on your question, press the "Shuffle Cards" button. You should keep your question in your mind till the shuffling is complete.</p><p class="item3">Three or five cards from the top of the shuffled deck will appear on the screen containing your answer. The number of cards depends on what spread you are using.</p><p style="text-align:center;margin-top: -20px;"><br><button id="1" type="button" class="btn btn-outline-info btn-lg" onclick="start()">SHUFFLE CARDS</button></p><div>';
+document.getElementById("div-content").innerHTML='<div class="instruction-title">Instructions</div><div class="first-instructions"><p class="item1">Think about what you wanna ask and formulate a clear question. You can say it aloud or just in your mind.</p><p class="item2">While focusing on your question, press the "Shuffle Cards" button. You should keep your question in your mind till the shuffling is complete.</p><p class="item3">Three or five cards from the top of the shuffled deck will appear on the screen containing your answer. The number of cards depends on what spread you are using.</p><p style="text-align:center;margin-top: -20px;"><br><button id="1" type="button" class="btn btn-outline-info btn-lg" onclick="start()">SHUFFLE CARDS</button></p><div>';
 }
 function start(){
     $('#second-screen').removeClass('second-screen-main'); //remove margin-top to keep shuffle.gif centralized 
