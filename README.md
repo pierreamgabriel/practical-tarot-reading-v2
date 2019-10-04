@@ -10,4 +10,4 @@ This version of the Practical Tarot Reading app eliminates user interactions and
 
 ## Download
 
-You can install the app on your android device downloading the latest apk file here https://github.com/pierremacedo/practical-tarot-reading-v2/releases/download/v1.0/Practical-Tarot-Reading-v2-1.0.apk
+You can install the app on your Android device downloading the latest apk file here https://github.com/pierremacedo/practical-tarot-reading-v2/releases/download/v1.0/Practical-Tarot-Reading-v2-1.0.apk
